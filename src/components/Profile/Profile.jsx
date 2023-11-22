@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Profile = ({ username, tag, location, avatar, stats }) => {
+export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
     <div className="profile">
       <div className="description">
@@ -10,7 +10,7 @@ const Profile = ({ username, tag, location, avatar, stats }) => {
           alt="User avatar"
           className="avatar"
         />
-        <p classNameclass="name">{username}</p>
+        <p className="name">{username}</p>
         <p className="tag">{tag}</p>
         <p className="location">{location}</p>
       </div>
