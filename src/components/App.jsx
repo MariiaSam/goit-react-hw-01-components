@@ -1,3 +1,4 @@
+import React from "react";
 
 import user from '../Data/user.json'
 import { Profile } from './Profile/Profile'
