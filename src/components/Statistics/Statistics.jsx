@@ -27,3 +27,14 @@ return (
 </section>
     )
 }
+
+
+Statistic.propTypes = {
+    title: PropTypes.string.isRequired,
+    stats: PropTypes.shape({
+        // followers: PropTypes.number.isRequired,
+        // views: PropTypes.number.isRequired,
+        // likes: PropTypes.number.isRequired,
+      }).isRequired,
+    
+}
