@@ -6,6 +6,9 @@ import { Profile } from './Profile/Profile'
 import data from '../Data/data.json'
 import { Statistics } from './Statistics/Statistics'
 
+import transactions from '../Data/transactions.json'
+import { TransactionHistory } from './TransactionHistory/TransactionHistory'
+
  
 
 export const App = () => {
@@ -29,6 +32,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title='Upload stats' stats={data}></Statistics>
+      <TransactionHistory items={transactions}></TransactionHistory>
 
     </div>
   );
