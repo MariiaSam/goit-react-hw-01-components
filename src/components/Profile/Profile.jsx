@@ -19,7 +19,7 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
       <Description>
         <Avatar src={avatar} alt="User avatar" />
         <UserName>{username}</UserName>
-        <UserTag>@{tag}</UserTag>
+        <UserTag>{tag}</UserTag>
         <Location>{location}</Location>
       </Description>
 

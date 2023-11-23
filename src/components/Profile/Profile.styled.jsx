@@ -43,7 +43,7 @@ font-weight: 500px;
 export const Location = styled(UserTag)``;
 
 export const StatsList = styled.ul`
-background-color: #20B2AA	;
+background-color: #4d9f98;
 list-style: none;
 
 display: flex;

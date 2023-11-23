@@ -22,6 +22,8 @@ text-align: center;
 color: #008080;
 font-size: 28px;
 margin-bottom: 20px;
+text-shadow: 1px 1px 1px #fff;
+
 `;
 
 export const StatList = styled.ul`
@@ -50,6 +52,7 @@ background-color: ${() => getRandomHexColor};
 export const Label = styled.span`
 color: #fff;
 font-size: 20px;
+
 `;
 
 export const Percentage = styled(Label)``;
