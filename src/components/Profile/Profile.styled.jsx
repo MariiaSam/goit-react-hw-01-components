@@ -6,6 +6,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 
+
 border-radius: 10px;
 box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 margin-top: 50px;
@@ -29,10 +30,9 @@ margin-top: 20px;
 `;
 
 export const UserName = styled.p`
-color: black;
+color: #008080;
 font-size: 28px;
 margin-bottom: 0px;
-font-weight: 700px;
 `;
 
 export const UserTag = styled(UserName)`
@@ -43,7 +43,7 @@ font-weight: 500px;
 export const Location = styled(UserTag)``;
 
 export const StatsList = styled.ul`
-background-color: rgb(222, 230, 245);
+background-color: #20B2AA	;
 list-style: none;
 
 display: flex;
@@ -56,7 +56,6 @@ width: 100%;
 margin: 0px;
 
 border-top: 1px solid rgb(141, 155, 155);
-background-color: rgb(213, 238, 238);
 
 `;
 
@@ -69,7 +68,6 @@ flex-direction: column;
 
 width: 100%;
 margin: 20px 0px;
-
 `;
 
 export const Label = styled.span`
