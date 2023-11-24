@@ -32,15 +32,17 @@ export const TableHeadItem = styled.th`
 `;
 
 export const TableBody = styled.tbody`
-font-size: 18px;
+  font-size: 18px;
   text-align: center;
-` 
+  text-shadow: 1px 1px 1px #fff;
+  padding: 8px 0;
+`;
 
 export const TableBodyTr = styled.tr`
   background-color: rgb(139, 187, 183);
-  `;
+`;
 
-  export const TableBodyItem = styled.td`
- padding: 8px 0;
-
-  `
+export const TableBodyItem = styled.td`
+  text-shadow: 1px 1px 1px #fff;
+  padding: 8px 0;
+`;

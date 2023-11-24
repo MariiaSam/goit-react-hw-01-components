@@ -22,7 +22,7 @@ text-align: center;
 color: #008080;
 font-size: 28px;
 margin-bottom: 20px;
-text-shadow: 1px 1px 1px #fff;
+text-shadow: 1px 1px 1px #d1c4c4;
 
 `;
 
