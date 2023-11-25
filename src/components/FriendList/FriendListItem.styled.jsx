@@ -4,7 +4,6 @@ export const Item = styled.li`
   display: flex;
   align-items: center;
   justify-content: space-around;
-  list-style: none;
   gap: 20px;
   margin-top: 20px;
 
@@ -12,7 +11,6 @@ export const Item = styled.li`
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   background-color: white;
   width: 400px;
-
 `;
 
 export const Status = styled.span`

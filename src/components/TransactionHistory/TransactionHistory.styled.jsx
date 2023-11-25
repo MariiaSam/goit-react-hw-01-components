@@ -27,7 +27,8 @@ export const TableHeadItem = styled.th`
 
   font-size: 24px;
   font-weight: 400;
-  border: 2px solid rgb(3, 52, 48);
+  border: 2px solid;
+  border-radius: 10%;
   padding: 3px 2px;
 `;
 

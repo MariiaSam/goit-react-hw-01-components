@@ -5,7 +5,7 @@ import {
   StatList,
   Item,
   Label,
-  Percentage
+  Percentage,
 } from './Statistics.styled';
 
 export const Statistics = ({ title, stats }) => {
